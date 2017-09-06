@@ -87,7 +87,7 @@ var sticky = new Waypoint.Sticky({
   element: $('#read_more')[0]
 })
 
-$('#article-images').slick({
+$('#neo-images').slick({
   dots: true,
   infinite: true,
   speed: 100,
