@@ -74,7 +74,7 @@ $(function() {
     $("span.pulledquote").fitText(4.2, { minFontSize: '13px' });
     $(".article-sidebar").fitText(2, { minFontSize: '9.5px' });
     $('h1.article-title').lettering('words')  
-    $( "#article-cover" ).css( "height", function () {
+    $( "#home-cover" ).css( "height", function () {
       return (this.bottom = $('.bgImg').outerHeight(true)+$('#article-details').outerHeight(true))
     }
 );

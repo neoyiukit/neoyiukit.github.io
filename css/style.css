@@ -142,10 +142,10 @@ body {
   color: #cccccc;
 }
 
-#article-cover {
+#home-cover {
   width: 100%;
 }
-#article-cover .bgImg {
+#home-cover .bgImg {
   height: 100vh;
   overflow: hidden;
   background: url(https://wallpapers.pub/web/wallpapers/hong-kong-bruce-lee-monument/4096x2160.jpg) no-repeat center center fixed;
