@@ -74,6 +74,11 @@ body {
   -webkit-transition: width 240ms ease-in-out;
   transition: width 240ms ease-in-out;
 }
+#menu.close li:nth-of-type(9) {
+  width: 0;
+  -webkit-transition: width 220ms ease-in-out;
+  transition: width 220ms ease-in-out;
+}
 #menu.close li a {
   margin-right: 10em;
 }
@@ -193,7 +198,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 3em;
+  font-size: 1.6em;
   line-height: 1em;
   text-transform: uppercase;
   display: block;
