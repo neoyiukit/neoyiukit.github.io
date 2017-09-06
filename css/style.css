@@ -249,17 +249,17 @@ body {
   color: #cccccc;
 }
 
-#article-body {
+#about-body {
   text-align: justify;
   font-family: "Halant", serif;
   font-weight: 400;
   font-size: 1.6em;
   line-height: 1.571em;
 }
-#article-body .article-copy p {
+#about-body .article-copy p {
   margin: 0 0 1.571em 0;
 }
-#article-body .article-copy.dropcap:first-letter {
+#about-body .article-copy.dropcap:first-letter {
   font-family: "Playfair Display", serif;
   font-weight: 500;
   font-style: normal;
