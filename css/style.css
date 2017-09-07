@@ -89,8 +89,6 @@ body {
 }
 #menu nav ul li, #menu nav li li {
   width: 150px;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
   text-align: right;
   height: 50px;
   background: #ffffff;
@@ -220,7 +218,7 @@ body {
   display: block;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   margin-top: 1em;
   padding: 0 10%;
 }
