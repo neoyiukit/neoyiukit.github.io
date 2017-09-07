@@ -492,3 +492,141 @@ hr {
     height: 0;
     margin: 5px 50px;
 }
+
+#profile-body {
+  background: #ffffff;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  min-height: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+#skills-body, #project-body, #contact-body {
+  background: #343c47;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  min-height: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+#experiences-body, #about-body, #neo-images {
+  background: #f5f8fb; 
+  padding-top: 1%;
+  padding-bottom: 1%;
+  min-height: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+/*profile-body part*/
+#profile-body {
+  text-align: justify;
+  font-family: "Halant", serif;
+  font-weight: 400;
+  font-size: 1.6em;
+  line-height: 1.571em;
+}
+#profile-body .article-copy p {
+  margin: 0 0 1.571em 0;
+}
+#profile-body .article-copy.dropcap:first-letter {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15.3em;
+  color: #000000;
+  float: left;
+  line-height: 0.7em;
+  margin: 0 0.09em 0.1em 0;
+}
+
+/*experiences-body part*/
+#experiences-body {
+  text-align: justify;
+  font-family: "Halant", serif;
+  font-weight: 400;
+  font-size: 1.6em;
+  line-height: 1.571em;
+}
+#experiences-body .article-copy p {
+  margin: 0 0 1.571em 0;
+}
+#experiences-body .article-copy.dropcap:first-letter {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15.3em;
+  color: #000000;
+  float: left;
+  line-height: 0.7em;
+  margin: 0 0.09em 0.1em 0;
+}
+
+/*skills-body part*/
+#skills-body {
+  text-align: justify;
+  font-family: "Halant", serif;
+  font-weight: 400;
+  font-size: 1.6em;
+  line-height: 1.571em;
+}
+#skills-body .article-copy p {
+  margin: 0 0 1.571em 0;
+}
+#skills-body .article-copy.dropcap:first-letter {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15.3em;
+  color: #000000;
+  float: left;
+  line-height: 0.7em;
+  margin: 0 0.09em 0.1em 0;
+}
+
+/*project-body part*/
+#project-body {
+  text-align: justify;
+  font-family: "Halant", serif;
+  font-weight: 400;
+  font-size: 1.6em;
+  line-height: 1.571em;
+}
+#project-body .article-copy p {
+  margin: 0 0 1.571em 0;
+}
+#project-body .article-copy.dropcap:first-letter {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15.3em;
+  color: #000000;
+  float: left;
+  line-height: 0.7em;
+  margin: 0 0.09em 0.1em 0;
+}
+
+/*contact-body part*/
+#contact-body {
+  text-align: justify;
+  font-family: "Halant", serif;
+  font-weight: 400;
+  font-size: 1.6em;
+  line-height: 1.571em;
+}
+#contact-body .article-copy p {
+  margin: 0 0 1.571em 0;
+}
+#contact-body .article-copy.dropcap:first-letter {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15.3em;
+  color: #000000;
+  float: left;
+  line-height: 0.7em;
+  margin: 0 0.09em 0.1em 0;
+}
+
