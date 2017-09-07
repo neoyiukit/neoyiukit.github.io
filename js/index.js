@@ -96,29 +96,33 @@ $('#neo-images').slick({
 });
 
 $('#read_more').localScroll();
+$('#press-home').localScroll();
+$('#press-profile').localScroll();
+$('#press-exp').localScroll();
+$('#press-skills').localScroll();
+$('#press-blog').localScroll();
+$('#press-project').localScroll();
+$('#press-image').localScroll();
+$('#press-contact').localScroll();
 
 $( "#btn-menu" ).click(function() {
-  $( "#menu" ).toggleClass( "close" );
+$( "#menu" ).toggleClass( "close" );
 });
 
-// newly added
-$('.awesome-tooltip').tooltip({
-            placement: 'left'
-        });  
-        $('body').scrollspy({ 
-            target: '#mainnav', 
-            offset: 000
-        });  
-        /* CSS Tricks smooth scrolling : https://css-tricks.com/snippets/jquery/smooth-scrolling/ */
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                if (target.length) {                   
-                    $('html, body').animate({
-                        scrollTop: target.offset().top
-                    }, 500);
-                    return false;
-                }
-            }
-        });   
+// right-hand dot navigation
+  $('body').scrollspy({ 
+      target: '#mainnav', 
+      offset: 000
+  });  
+  $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {                   
+              $('html, body').animate({
+                  scrollTop: target.offset().top
+              }, 500);
+              return false;
+          }
+      }
+  });    
