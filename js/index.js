@@ -115,8 +115,10 @@ $( "#menu" ).toggleClass( "close" );
 $(window).scroll(function() {
     if ($(window).scrollTop() > 1300) {
       $('#mainnav').removeClass('closeMainNav');
+      $('.scrollup').fadeIn();
     } else {
       $('#mainnav').addClass('closeMainNav');
+      $('.scrollup').fadeOut();
     } 
 
 });
@@ -125,15 +127,10 @@ $('body').scrollspy({
     target: '#mainnav', 
     offset: 000
 });  
-// $('a[href*=#]:not([href=#])').click(function() {
-//     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-//         var target = $(this.hash);
-//         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-//         if (target.length) {                   
-//             $('html, body').animate({
-//                 scrollTop: target.offset().top
-//             }, 500);
-//             return false;
-//         }
-//     }
-// });    
+
+$('.scrollup').click(function () {
+    $("html, body").animate({
+        scrollTop: 0
+    }, 600);
+    return false;
+});

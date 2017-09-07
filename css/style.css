@@ -633,8 +633,8 @@ hr {
 }
 
 .dotnav-right {
-        right: 2%;
-        top: 50%;
+        right: 3%;
+        top: 40%;
         margin-top: -50px;
         height: 100px;
         z-index: 999;
@@ -663,7 +663,7 @@ hr {
         width: 15px;
         height: 15px;
         border-radius: 50%;
-        border: 2px solid #000000;
+        border: 2px solid rgba(0,0,0,0.3);
         vertical-align: top;
         overflow: hidden;
         padding: 0;
@@ -671,14 +671,14 @@ hr {
     }
     .dotnav > li > a:hover,
     .dotnav > li > a:focus {
-        background: #000000;
+        background: rgba(0,0,0,0.6);
         outline: none;
     }
     .dotnav > li > a:active {
-        background: #000000;
+        background: rgba(0,0,0,0.6);
     }
     .dotnav > li.active > a {
-        background: #000000;
+        background: rgba(0,0,0,0.6);
     }
     .dotnav-vertical > li {
         display: block;
@@ -691,3 +691,16 @@ hr {
     .closeMainNav{
       display: none;
     }
+    .scrollup {
+    color: rgba(0,0,0,0.3);
+    font-size: 40px;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    display: none;
+    bottom: 5%;
+    right: 3%;
+    z-index: 999;
+}
