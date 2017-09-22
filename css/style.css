@@ -546,7 +546,7 @@ hr {
 }
 
 #profile-body .article-copy .profile-desc {
-  margin: 4em 3em 1.5em 0;
+  margin: 5.5em 3em 1.5em 0;
 }
 
 #profile-body .profile-intro {
@@ -730,4 +730,12 @@ hr {
     from { transform: translate(0,  0px); }
     65%  { transform: translate(0, 15px); }
     to   { transform: translate(0, -0px); }    
+}
+
+.section-bar {
+    display: block;
+    margin: 3% auto;
+    width: 25%;
+    height: 4px;
+    background-color: #bf0000;
 }
