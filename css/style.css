@@ -266,7 +266,7 @@ body {
   line-height: 1.571em;
 }
 #about-body .article-copy p {
-  margin: 0 0 1.571em 0;
+  margin: 0 0 1.5em 0;
 }
 #about-body .article-copy.dropcap:first-letter {
   font-family: "Playfair Display", serif;
@@ -277,6 +277,18 @@ body {
   float: left;
   line-height: 0.7em;
   margin: 0 0.09em 0.1em 0;
+}
+
+.profile-pic {
+  float: left;
+  width: 35%;
+  margin-right: 4%;
+}
+
+.profile-desc {
+  font-family: "Josefin Sans", serif;
+  font-style: normal;
+  font-size: 1.1em;
 }
 
 .article-sidebar {
@@ -499,6 +511,8 @@ hr {
   background: #ffffff;
   padding-top: 1%;
   padding-bottom: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   min-height: 100%;
   z-index: 1;
   position: relative;
@@ -525,21 +539,23 @@ hr {
 /*profile-body part*/
 #profile-body {
   text-align: justify;
-  font-family: "Halant", serif;
   font-weight: 400;
   font-size: 1.6em;
-  line-height: 1.571em;
+  line-height: 1.6em;
+  overflow: auto;
 }
-#profile-body .article-copy p {
-  margin: 0 0 1.571em 0;
+
+#profile-body .article-copy .profile-desc {
+  margin: 4em 3em 1.5em 0;
 }
-#profile-body .article-copy.dropcap:first-letter {
-  font-family: "Playfair Display", serif;
-  font-weight: 500;
+
+#profile-body .profile-intro {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
   font-style: normal;
-  font-size: 15.3em;
+  font-size: 2em;
   color: #000000;
-  float: left;
+  text-align: center;
   line-height: 0.7em;
   margin: 0 0.09em 0.1em 0;
 }
