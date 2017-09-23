@@ -549,6 +549,10 @@ hr {
   margin: 5.5em 3em 1.5em 0;
 }
 
+.profile-intro i {
+  padding-right: 0.6em;
+}
+
 #profile-body .profile-intro {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 600;
