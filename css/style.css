@@ -829,7 +829,6 @@ hr {
 }
 
 #about-body .article-copy {
-  height:600px;
   margin-top: 2%;
   margin-bottom: 2%;
 }
@@ -851,14 +850,6 @@ hr {
     width: 25%;
     height: 4px;
     background: #ffffff;
-}
-/*temporary placeholder*/
-#about-body .loading-sign {
-  font-family: 'Amatic SC', cursive;
-  color: #ffffff;
-  font-size: 1.5em;
-  text-align: center;
-  margin: 200px 0;
 }
 
 /*project-body*/
