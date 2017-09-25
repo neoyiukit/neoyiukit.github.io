@@ -852,56 +852,6 @@ hr {
     background: #ffffff;
 }
 
-/*project-body*/
-#project-body {
-  background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.4) ), url(../img/rakuten_bg.jpg) no-repeat top fixed;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  min-height: 100%;
-  z-index: 1;
-  position: relative;
-  text-align: justify;
-  font-family: "Halant", serif;
-  font-weight: 400;
-  font-size: 1.6em;
-  line-height: 1.571em;
-}
-
-#project-body .article-copy {
-  height:600px;
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
-#project-body .about-intro {
-  font-family: 'Amatic SC', cursive;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 3em;
-  color: #ffffff;  /* fallback for old browsers */
-  text-align: center;
-  line-height: 0.7em;
-  margin: 0 0.09em 0.1em 0;
-}
-
-#project-body .section-bar {
-    display: block;
-    margin: 3% auto;
-    width: 25%;
-    height: 4px;
-    background: #ffffff;
-}
-/*temporary placeholder*/
-#project-body .loading-sign {
-  font-family: 'Amatic SC', cursive;
-  color: #ffffff;
-  font-size: 1.5em;
-  text-align: center;
-  margin: 200px 0;
-}
-
 /*education part*/
 #about-body .education-block {
   overflow: hidden;
@@ -935,4 +885,84 @@ hr {
   font-style: italic;
 }
 
-    
+.education-detail .education-location i {
+  font-size: 1.3em;
+}
+
+/*project-body*/
+#project-body {
+  background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5) ), url(../img/rakuten_bg.jpg) no-repeat top fixed;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  min-height: 100%;
+  z-index: 1;
+  position: relative;
+  text-align: justify;
+  font-family: "Halant", serif;
+  font-weight: 400;
+  font-size: 1.6em;
+  line-height: 1.571em;
+}
+
+#project-body .article-copy {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#project-body .about-intro {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 3em;
+  color: #ffffff;  /* fallback for old browsers */
+  text-align: center;
+  line-height: 0.7em;
+  margin: 0 0.09em 0.1em 0;
+}
+
+#project-body .section-bar {
+    display: block;
+    margin: 3% auto;
+    width: 25%;
+    height: 4px;
+    background: #ffffff;
+}
+
+/*experience part*/
+#project-body .experience-block {
+  overflow: hidden;
+  margin: auto 10%;
+  color: #ffffff;
+}
+
+#project-body .experience-block .experience-row {
+  overflow: hidden;
+  margin-bottom: 5%;
+}
+
+#project-body .experience-block .experience-row h4 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#project-body .experience-block .experience-row p {
+  font-family: 'Roboto Slab', serif;
+  font-size: .9em;
+}
+
+#project-body .experience-block .experience-row .company-name {
+  text-transform: uppercase;
+}
+
+#project-body .experience-block .experience-row .experience-detail {
+  display: block;
+  margin-top: 5%;
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.experience-detail .experience-location i {
+  font-size: 1.3em;
+}
