@@ -901,3 +901,38 @@ hr {
   text-align: center;
   margin: 200px 0;
 }
+
+/*education part*/
+#about-body .education-block {
+  overflow: hidden;
+  margin: auto 10%;
+  color: #ffffff;
+}
+
+#about-body .education-block .education-row {
+  overflow: hidden;
+  margin-bottom: 5%;
+}
+
+#about-body .education-block .education-row h4 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#about-body .education-block .education-row p {
+  font-family: 'Roboto Slab', serif;
+  font-size: .9em;
+}
+
+#about-body .education-block .education-row .university-name {
+  text-transform: uppercase;
+}
+
+#about-body .education-block .education-row .education-detail {
+  display: block;
+  margin-top: 5%;
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+    
