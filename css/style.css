@@ -537,15 +537,6 @@ hr {
   margin: 0 0.09em 0.1em 0;
 }
 
-/*skills-body part*/
-#skills-body {
-  text-align: justify;
-  font-family: "Halant", serif;
-  font-weight: 400;
-  font-size: 1.6em;
-  line-height: 1.571em;
-}
-
 /* dot-nav */
 .dotnav-right {
         right: 3%;
@@ -743,7 +734,7 @@ hr {
 .experiences-left-col {
     display: inline-block;
     vertical-align: top;
-    width: 45%;
+    width: 48%;
     height: 100%;
     padding: 20px;
     overflow: hidden;
@@ -776,7 +767,14 @@ hr {
    font-weight: 300;
 }
 
-/*skill content area*/
+/*skills-body part*/
+#skills-body {
+  font-family: "Halant", serif;
+  font-weight: 400;
+  font-size: 1.6em;
+  line-height: 1.571em;
+}
+
 #skills-body .skills-intro {
   font-family: 'Amatic SC', cursive;
   font-weight: 600;
@@ -789,7 +787,7 @@ hr {
 }
 
 #skills-body .article-copy {
-  height:600px;
+  /* height:600px; */
   margin-top: 2%;
   margin-bottom: 2%;
 }
@@ -803,13 +801,13 @@ hr {
 }
 
 /*temporary placeholder*/
-#skills-body .loading-sign {
+/* #skills-body .loading-sign {
   font-family: 'Amatic SC', cursive;
   color: #ffffff;
   font-size: 1.5em;
   text-align: center;
   margin: 200px 0;
-}
+} */
 
 /*education area*/
 #about-body {
@@ -965,4 +963,47 @@ hr {
 
 .experience-detail .experience-location i {
   font-size: 1.3em;
+}
+
+/* skills body */
+#skills-body .skills-flex-wrapper {
+  color: #ffffff;
+  padding: 20px;
+}
+
+#skills-body .skills-flex-wrapper .flex-item {
+  width: 40%;
+  max-width: 400px;
+  min-height: 450px;
+}
+
+#skills-body .skills-flex-wrapper .dev-wrapper {
+  display: block;
+  padding: 20px;
+}
+
+#skills-body .skills-flex-wrapper ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills-body .skills-flex-wrapper ul li{
+  width: 80px;
+  height: 80px;
+  font-size: 14px;
+  line-height: 5.5;
+  margin: 5px 5px 5px 0;
+  display: inline-block;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  margin: 10px 10px 10px 0;
+  padding: 0;
+}
+
+#skills-body .skills-heading{
+font-family: Gotham,Helvetica,Arial,sans-serif;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 1.5vw;
 }
